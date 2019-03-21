@@ -41,11 +41,9 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  creationTimestamp: null
   labels:
     run: andreaskuberneres
   name: andreaskuberneres
-  selfLink: /api/v1/namespaces/default/services/andreaskuberneres
 spec:
   externalTrafficPolicy: Cluster
   ports:
